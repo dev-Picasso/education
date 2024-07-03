@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch-video</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <!--<link rel="stylesheet" href="./js/script.js">-->
+</head>
+<body>
+    
+<header class="header">
+    
+    <section class="flex">
+
+       <a href="home.html" class="logo">Educa.</a>
+
+       <form action="" method="post" class="search-form">
+        <input type="text" name="search_box" placeholder="search courses..." required maxlength="100">
+        <button type="submit" class="fas fa-search" name="search_box"></button>
+       </form>
+
+       <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="user-btn" class="fas fa-user"></div>
+        <div id="toggle-btn" class="fas fa-sun "></div>
+       </div>
+
+       <div class="profile"> 
+        <img src="./image/images/pic-1.jpg">
+        <h3>shaikh anas</h3>
+        <span>student</span>
+        <a href="profile.html" class="btn">view profile</a>
+        <div class="flex-btn">
+            <a href="login.html"  class="option-btn">login</a>
+            <a href="register.html"  class="option-btn">register</a>
+        </div>
+       </div>
+
+       
+
+    </section>
+
+</header>
+
+
+<div class="side-bar">
+
+    <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+    </div>
+
+    <div class="profile"> 
+        <img src="./image/images/pic-1.jpg">
+        <h3>shaikh anas</h3>
+        <span>student</span>
+        <a href="profile.html" class="btn">view profile</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+        <a href="about.html"><i class="fas fa-question"></i><span>about us</span></a>
+        <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+        <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+        <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+    </nav>
+
+</div>
+
+<!--sidebar ends-->
+
+
+
+
+<!--watch video section starts-->
+
+
+<section class="watch-video">
+
+    <div class="video-details">
+        <video src="./image/images/vid-1.mp4" class="video" poster="./image/images/post-1-1.png" controls autoplay></video>
+        <h3 class="title">complete HTML tutorial (part 01)</h3>
+        <div class="info">
+            <p><i class="fas fa-calendar"></i><span>21-25-2024</span></p>
+            <p><i class="fas fa-heart"></i><span>45 likes</span></p>
+        </div>
+        <div class="tutor">
+            <img src="./image/images/pic-2.jpg" alt="">
+            <div>
+                <h3>john deo</h3>
+                <span>developer</span>
+            </div>
+        </div>
+        <form action="" method="post" class="flex">
+            <a href="playlist.html" class="inline-btn">view playlist</a>
+            <button type="submit"><i class="far fa-heart"></i><span>likes</span></button>
+        </form>
+        <div class="descriptions">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis incidunt hic porro facilis deleniti 
+            natus aspernatur ullam voluptate itaque laboriosam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veniam facilis eos accusamus laboriosam est, 
+            fugit, cumque animi aliquid hic voluptatibus. Harum laudantium repudiandae 
+            dolor perspiciatis adipisci reprehenderit necessitatibus cum!</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!--watch video section ends-->
+
+<!--comments section starts-->
+
+<section class="comments">
+
+    <h1 class="heading">add comment</h1>
+
+    <form action="" method="post" class="add-comment">
+        <h3>add title</h3>
+        <textarea name="comment-box" required placeholder="write your comment..." maxlength="1000" cols="30" rows="10"></textarea>
+        <input type="submit" name="add_comment" value="add comment" class="inline-btn">
+    </form>
+
+    <h1 class="heading">6 comments</h1>
+
+    <div class="show-comments">
+
+        <div class="box">
+            <div class="user">
+                <img src="./image/images/pic-1.jpg" alt="image">
+                <div>
+                    <h3>shaikh anas</h3>
+                    <span>21-25-2024</span>
+                </div>
+            </div>
+            <p class="text">this is comment from shaikh anas</p>
+            <div class="flex-btn">
+                <form action="" method="post" class="flex-btn">
+                    <button type="submit" name="edit-comment" class="inline-option-btn">edit comment</button>
+                    <button type="submit" name="delete-comment" class="inline-delete-btn">delete comment</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="./image/images/pic-2.jpg" alt="image">
+                <div>
+                    <h3>john deo</h3>
+                    <span>21-25-2024</span>
+                </div>
+            </div>
+             <p class="text">wow amazing video!
+                thanks for the source of codes
+             </p>
+        </div>
+
+        <div class="user">
+            <img src="./image/images/pic-3.jpg" alt="image">
+            <div>
+                <h3>john deo</h3>
+                <span>21-25-2024</span>
+            </div>
+        </div>
+         <p class="text">wow amazing video!
+            thanks for the source of codes
+         </p>
+
+         <div class="user">
+            <img src="./image/images/pic-4.jpg" alt="image">
+            <div>
+                <h3>john deo</h3>
+                <span>21-25-2024</span>
+            </div>
+        </div>
+         <p class="text">wow amazing video!
+            thanks for the source of codes
+         </p>
+
+         <div class="user">
+            <img src="./image/images/pic-5.jpg" alt="image">
+            <div>
+                <h3>john deo</h3>
+                <span>21-25-2024</span>
+            </div>
+        </div>
+         <p class="text">wow amazing video!
+            thanks for the source of codes
+         </p>
+
+         <div class="user">
+            <img src="./image/images/pic-6.jpg" alt="image">
+            <div>
+                <h3>john deo</h3>
+                <span>21-25-2024</span>
+            </div>
+        </div>
+         <p class="text">wow amazing video!
+            thanks for the source of codes
+         </p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2024 by <span>devPicasso</span> | all rights reserved!
+
+</footer>
+
+
+   <script src="./js/script.js"></script>
+</body>
+
+</html>
